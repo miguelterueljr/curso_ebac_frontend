@@ -4,10 +4,15 @@
   padding: 0;
 }
 
+body {
+  width: 100vw;
+}
+
 body > header {
   background-color: #2d3640;
   padding: 16px 0;
   color: #f5f6fa;
+  
 }
 
 header .container {
@@ -43,6 +48,7 @@ header li a {
 .articles article img {
   /*height: 180px;*/
   width: 100%;
+  height: 300px;
 }
 
 .articles article {
@@ -107,6 +113,23 @@ section h2 {
 #economy .articles article a {
   background-color: #ff9f1a;
 }
+
+#entertainment {
+  background-color: #71dcea;
+}
+
+#entertainment .articles article a {
+  background-color: #7886af;
+}
+
+#tecnology {
+  background-color: #9EB1EB;
+}
+
+#tecnology .articles article a {
+  background-color: #000;
+}
+
 
 
 
