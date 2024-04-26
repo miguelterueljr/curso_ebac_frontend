@@ -1,2 +1,3 @@
-# Versionamento de Código
+# Treinamento com jQuery
 Este repositório destina-se para fins de treinamento e entrega de atividade prática para o curso de Desenvolvedor FullStack Java na [EBAC](https://ebaconline.com.br/).
+Nele foi desenvolvido uma simples lista de tarefas onde o usuário pode adicionar suas tarfas, o valor do input será adicionado a lista ordenada com um efeito de fadeIn e se clicar em cima ele adiciona uma classe mostrando que a tarefa foi concluída.
