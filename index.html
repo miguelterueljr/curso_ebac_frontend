@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <h1>Calculadora</h1>
-    <h2>Campo B > Campo A ?</h2>
+  <main class="container">
+    <h1 class="container__title">to do list</h1>
     <form class="form">
-        <input class="form__input" id="form__input-a" type="number" placeholder="Campo A - Insira um número" required>
-        <input class="form__input" id="form__input-b" type="number" placeholder="Campo B - Insira um número" required>
-        <span class="form__span-message"></span>
-        <button class="form__button-submit" type="submit">Enviar</button>
+      <input type="text" placeholder="Insira a Tarefa" required class="form__input"/>
+      <button type="submit" class="form__button">Cadastrar</button>
     </form>
-
-    <script src="./script.js"></script>
+    <ol class="list__container">
+      <li class="list__item">Estudar</li>
+      <li class="list__item">Almoçar</li>
+    </ol>
+  </main>
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="./main.js"></script>
 </body>
 </html>
