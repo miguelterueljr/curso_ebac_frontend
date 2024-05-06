@@ -9,6 +9,8 @@ html {
     overflow-x: hidden;
 }
 
+
+
 .container {
     max-width: 1024px;
     width: 100%;
@@ -172,4 +174,32 @@ footer li img {
 footer .container {
     justify-content: space-between;
     align-items: center;
+}
+
+.register {
+    background-color: lightgrey;
+    width: 40%;
+    height: 90%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    
+    
+}
+
+.container-register {
+    width: 80%;
+    margin: auto;
+   
+}
+
+.container-register__title {
+    text-align: center;
+}
+
+.button__container {
+    display: flex;
+    column-gap: 16px;
 }
